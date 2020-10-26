@@ -1,0 +1,19 @@
+{
+  "name": "functionalprogramminginjavascript",
+  "version": "1.0.0",
+  "description": "This is practical examples to learn functional programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaTaklit/Functional-Programming-In-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript/issues"
+  },
+  "homepage": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript#readme"
+}
