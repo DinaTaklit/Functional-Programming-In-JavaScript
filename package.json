@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript/issues"
   },
-  "homepage": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript#readme"
+  "homepage": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  }
 }
