@@ -1,4 +1,4 @@
-import fs from './../node_modules/file-system/file-system.js'
+import fs from 'file-system'
 
 var output = fs.readFileSync('data.txt', 'utf8')
     .trim()
