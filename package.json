@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is practical examples to learn functional programming.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/DinaTaklit/Functional-Programming-In-JavaScript#readme",
   "devDependencies": {
-    "fs": "0.0.1-security"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "file-system": "^2.2.2"
+  },
+  "dependencies": {
+    "babel-install": "^2.1.0"
   }
 }
