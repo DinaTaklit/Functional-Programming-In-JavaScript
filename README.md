@@ -51,6 +51,12 @@ countDownForm(10);
 - Callbacks is a way of telling your code that when this thing is done execute this piece of code.
 - Promises serve the same purpose as callbacks do but promises are bit more powerful coz unlike callbaks they are composable.
 
+## 6.Functors
+
+- In the context of JavaScript a functor is a function that take a value and a function (callback), ,, unwrap the value into its individual parts, feed those parts into the function that is has been given and take the return values and return them in a structured form and that is a functor.
+
+- One exp of functors are map filter. forEach is not a functor coz it does not return any structure.
+
 ## Credits
 
 All credits goes for this youtube course [Functional Programming in Java Script]( https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
