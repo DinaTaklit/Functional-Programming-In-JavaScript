@@ -63,6 +63,11 @@ countDownForm(10);
 - An array that is a series of multiple objects that are already there while a promise is a notion of a single object that might be there eventually.
 - A stram is a throw of values that will arrive whenever they just bloody well feel like lol.
 
+## 8.Monad
+
+- Monad is a more powereful functor that impelemnts `flatmap`.
+- `flatmap` has same priciple as map with the exception that if the callback is passed to falt map returns a monad of the same type. If we call `flatmap` upon a stream it returns the stream mondal that will be **flattend into  it is containing value** before it is passed on and that is why we can call map directly after `flatmap`.
+
 ## Credits
 
 All credits goes for this youtube course [Functional Programming in Java Script]( https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
