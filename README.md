@@ -53,9 +53,9 @@ countDownForm(10);
 
 ## 6.Functors
 
-- In the context of JavaScript a functor is a function that take a value and a function (callback), ,, unwrap the value into its individual parts, feed those parts into the function that is has been given and take the return values and return them in a structured form and that is a functor.
+- A functor is an object that has map mthos. Arrays in JavaScript implement map and are therefor functors. Promises, streams and trees often impelemnt map in functiona programming languges and when they do they are considered functors.
 
-- One exp of functors are map filter. forEach is not a functor coz it does not return any structure.
+- The map method of the functor takes the functor contents and transform them using the transformation callbak that is passed to map, that returns a new functor of the same type which contains the transform values.
 
 ## Credits
 
