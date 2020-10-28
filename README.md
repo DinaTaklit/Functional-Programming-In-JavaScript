@@ -8,6 +8,10 @@ This is practical examples to learn functional programming.
 - `npm install`
 - to run a js code we use `node namefile.js`
 
+## 0.map
+
+## 1.Reduce
+
 ## 2.Closures
 
 - In javascript functions are not just functions, they are also closures. What that means is that the function body has access to variables that are defined outside the function.
@@ -53,7 +57,7 @@ countDownForm(10);
 
 ## 6.Functors
 
-- A functor is an object that has map mthos. Arrays in JavaScript implement map and are therefor functors. Promises, streams and trees often impelemnt map in functiona programming languges and when they do they are considered functors.
+- A functor is an object that has map mthod. Arrays in JavaScript implement map and are therefor functors. Promises, streams and trees often impelemnt map in functiona programming languges and when they do they are considered functors.
 
 - The map method of the functor takes the functor contents and transform them using the transformation callbak that is passed to map, that returns a new functor of the same type which contains the transform values.
 
