@@ -57,6 +57,12 @@ countDownForm(10);
 
 - The map method of the functor takes the functor contents and transform them using the transformation callbak that is passed to map, that returns a new functor of the same type which contains the transform values.
 
+## 7.Streaming
+
+- Straming is once an array and promises get married and have a baby loool.
+- An array that is a series of multiple objects that are already there while a promise is a notion of a single object that might be there eventually.
+- A stram is a throw of values that will arrive whenever they just bloody well feel like lol.
+
 ## Credits
 
 All credits goes for this youtube course [Functional Programming in Java Script]( https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
