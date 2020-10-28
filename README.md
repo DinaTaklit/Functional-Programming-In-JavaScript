@@ -45,6 +45,12 @@ const countDownForm = num => {
 countDownForm(10);
 ```
 
+## 5.Promises
+
+- One of the big things about functional programming is to make your code more composable.
+- Callbacks is a way of telling your code that when this thing is done execute this piece of code.
+- Promises serve the same purpose as callbacks do but promises are bit more powerful coz unlike callbaks they are composable.
+
 ## Credits
 
 All credits goes for this youtube course [Functional Programming in Java Script]( https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
